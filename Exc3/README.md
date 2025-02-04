@@ -48,6 +48,6 @@
 
  ## Новая диаграмма контейнеров InsureTech
  
- [Новая диаграмма контейнеров InsureTech в draw.io](./new-schema.drawio)
+ [Новая диаграмма контейнеров InsureTech в draw.io](./exc3-schema.drawio)
  
- ![Новая диаграмма контейнеров InsureTech](./new-schema.png)
+ ![Новая диаграмма контейнеров InsureTech](./exc3-schema.png)

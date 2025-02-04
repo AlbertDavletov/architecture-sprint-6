@@ -64,6 +64,6 @@
 
 ## Новая схема архитектуры
 
-[Cхема в draw.io](./schema.drawio)
+[Cхема в draw.io](./exc1-schema.drawio)
 
 ![схема новой архитектуры в draw.io](../images/exc1-schema.png)
