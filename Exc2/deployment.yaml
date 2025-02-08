@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shestera-scaletestapp-deployment
+  labels:
+    app: shestera-scaletestapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shestera-scaletestapp
+  template:
+    metadata:
+      labels:
+        app: shestera-scaletestapp
+    spec:
+      containers:
+        - name: shestera-scaletestapp
+          image: shestera/scaletestapp:latest
+          ports:
+            - containerPort: 8080
+          resources:
+            limits:
+              memory: "30Mi"
+            requests:
+              memory: "20Mi"
